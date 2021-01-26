@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-image: url('../img/istockphoto-989794376-1024x1024.jpg');
+}
+
+body h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    background-color: black;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px red;
+}
+
+.quadrado{
+    text-align: center;
+    width: 100px;
+    background-color: #eee;
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 60px;
+    margin: 10px;
+    color: #eee;
+}
+
+.jogador, .vencedor{
+    padding: 2px 20px;
+    text-align: left;
+    margin: auto;
+    width: 30%;
+    background-color: black;
+    text-shadow: 2px 2px 5px red;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    text-shadow: 2px 2px black;
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: 0.35s;
+    text-shadow: 5px 5px 10px purple;
+    box-shadow: 5px 5px 10px purple;
+    color: purple;
+}
+
+.quadrado:hover{
+    transition: 0.35s;
+    text-shadow: 5px 5px 10px purple;
+    box-shadow: 5px 5px 10px purple;
+}
